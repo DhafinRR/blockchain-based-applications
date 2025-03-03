@@ -90,7 +90,7 @@ const ScanQris = () => {
 
             const setorData = allSetorTeh.find(setor => setor.id === id);
             if (!setorData) {
-                throw new Error('Data setoran tidak ditemukan');
+                throw new Error('Data tidak ditemukan');
             }
             console.log("Found setor data:", setorData);
 

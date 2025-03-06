@@ -52,7 +52,7 @@ function FarmerRegistry() {
                         Registrasi Petani
                     </h1>
                     <p className="text-lg text-gray-600">
-                        Sistem Pendaftaran dan Manajemen Data Petani
+                        Sistem Pendataan dan Manajemen Data Petani
                     </p>
                 </div>
 

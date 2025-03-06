@@ -78,7 +78,7 @@ function ChopRegistry() {
                         <Leaf className="w-8 h-8 text-green-600" />
                         <h2 className="text-3xl font-bold text-gray-800">Chop</h2>
                     </div>
-                    <p className="text-gray-600">Sistem Pendaftaran dan Manajemen Data Chop</p>
+                    <p className="text-gray-600">Sistem Pendataan dan Manajemen Data Chop</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8">

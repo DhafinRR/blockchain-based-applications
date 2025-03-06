@@ -20,8 +20,8 @@ function Sidebar() {
     };
 
     return (
-        <div className=" bottom-6 top-6 bg-gradient-to-b from-[#1B2F1B] to-[#356E35] text-white w-60 fixed shadow-lg rounded-r-lg">
-            <div className="p-2 flex flex-col items-center border-b border-gray-600">
+        <div className=" bottom-7 top-6 bg-gradient-to-b from-[#1B2F1B] to-[#356E35] text-white w-60 fixed shadow-lg rounded-r-lg">
+            <div className="pt-4 flex flex-col items-center border-b border-gray-600">
                 {!imageError ? (
                     <img
                         src={`${process.env.PUBLIC_URL}/images/h2.png`}

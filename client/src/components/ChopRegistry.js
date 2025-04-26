@@ -88,7 +88,7 @@ function ChopRegistry() {
                             <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                                 <Plus className="w-6 h-6 text-green-600" />
                             </div>
-                            <h3 className="text-xl font-bold text-gray-800">From Registrasi</h3>
+                            <h3 className="text-xl font-bold text-gray-800">Form Registrasi</h3>
                         </div>
 
                         {errorMessage && (
@@ -158,7 +158,7 @@ function ChopRegistry() {
                                 ) : (
                                     <>
                                         <Plus className="w-5 h-5" />
-                                        <span>Register New Chop</span>
+                                        <span>Chop</span>
                                     </>
                                 )}
                             </button>
@@ -177,7 +177,7 @@ function ChopRegistry() {
                         <div className="relative mb-6">
                             <input
                                 type="text"
-                                placeholder="Search by ID or date..."
+                                placeholder="Search by date..."
                                 value={searchTerm}
                                 onChange={handleSearch}
                                 className="w-full p-3 pl-11 bg-white border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent"

@@ -177,7 +177,7 @@ export default function PucukTehRegistry() {
                             <Search className="h-5 w-5 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2" />
                             <input
                                 type="text"
-                                placeholder="Cari berdasarkan ID atau koordinat..."
+                                placeholder="Cari berdasarkan koordinat..."
                                 value={searchTerm}
                                 onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
                                 className="w-full p-3 pl-10 bg-white border border-gray-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition"

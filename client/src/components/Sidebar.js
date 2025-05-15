@@ -40,7 +40,7 @@ function Sidebar() {
                 </Link>
                 <div className="mb-4">
                     <div className={`flex items-center justify-between px-8 py-4 cursor-pointer hover:bg-[#274927] transition-colors duration-300 rounded-lg shadow-sm ${expandedItem === 'Penyetoran' ? 'bg-[#274927]' : ''}`} onClick={() => toggleExpand('Penyetoran')}>
-                        <span className="flex items-center"><Package className="mr-4 text-xl" />Penyetoran</span>
+                        <span className="flex items-center"><Package className="mr-4 text-xl" />Pengiriman</span>
                         <ChevronDown className={`transition-transform duration-300 ${expandedItem === 'Penyetoran' ? 'rotate-180' : ''}`} />
                     </div>
                     {expandedItem === 'Penyetoran' && (

@@ -1,7 +1,7 @@
-export const contractAddress = "0x65043A231802Cc9bc43D38F8cCE86022B857aeCB"
-export const pucukTehAddress = "0x20e055c9326FE254339b877d91f4E323450D2099"
-export const setorTehAddress = "0x704FA70064F5AFf70Ea323224421f13f9eeb7771"
-export const ChopAddress = "0xC26D46828845D957e98183AabBCaE766cB447BF3"
+export const contractAddress = "0x11c656e0f251477441895504D503a436D5fc05D9"
+export const pucukTehAddress = "0xF3B47E8337030a7A64A46f23F0a4f3D96c400820"
+export const setorTehAddress = "0x1ACDadD7831Dc02b88832cB9FA96eA261D042025"
+export const ChopAddress = "0xe09775737a61e172fB7Ab91F09e3B4A978421A2C"
 
 
 export const contractABI = [
